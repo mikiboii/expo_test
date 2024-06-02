@@ -1,0 +1,24 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": {
+    "expo": "~51.0.8"
+  },
+  "devDependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "dependencies": {
+    "@expo/server": "^0.4.2",
+    "expo": "^51.0.9"
+  }
+}
