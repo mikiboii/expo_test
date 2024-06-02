@@ -1,0 +1,44 @@
+{
+  "apiRoutes": [
+    {
+      "file": "_expo/functions/api/mm+api.js",
+      "page": "/api/mm",
+      "namedRegex": "^/api/mm(?:/)?$",
+      "routeKeys": {}
+    }
+  ],
+  "htmlRoutes": [
+    {
+      "file": "./index.tsx",
+      "page": "/index",
+      "namedRegex": "^/(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true
+    },
+    {
+      "file": "./users/[id].tsx",
+      "page": "/users/[id]",
+      "namedRegex": "^/users/(?<id>[^/]+?)(?:/)?$",
+      "routeKeys": {
+        "id": "id"
+      }
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "expo-router/build/views/Unmatched.js",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      },
+      "generated": true
+    }
+  ]
+}
